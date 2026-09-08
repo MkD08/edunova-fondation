@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+:root {
+  --edunova-blue: #0b3d91;
+  --edunova-green: #27b33e;
+  --edunova-gold: #f4b400;
+  --edunova-light-blue: #f4f8fc;
+  --edunova-light-green: #eff9f1;
+  --edunova-text: #111827;
+
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+
+  color: var(--edunova-text);
+  background: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+::selection {
+  background: var(--edunova-green);
+  color: #ffffff;
+}
