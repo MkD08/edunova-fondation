@@ -29,13 +29,16 @@ function Footer() {
           <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr_0.8fr]">
             {/* Brand */}
             <div>
-              <a href="#accueil" className="inline-flex">
+            <a
+                href="#accueil"
+                className="inline-flex overflow-hidden rounded-2xl border-2 border-white/80 bg-white shadow-[0_8px_24px_rgba(0,0,0,0.15)]"
+                >
                 <img
-                  src="/images/logo/edunova-logo.jpeg"
-                  alt="EduNova Fondation"
-                  className="h-16 w-auto object-contain "
+                    src="/images/logo/edunova-logo.jpeg"
+                    alt="EduNova Fondation"
+                    className="h-16 w-auto object-contain"
                 />
-              </a>
+                </a>
 
               <p className="mt-5 max-w-sm text-sm leading-6 text-white/65">
                 Centre & Services éducatifs et professionnels à Nouakchott.
