@@ -33,7 +33,7 @@ function Footer() {
                 <img
                   src="/images/logo/edunova-logo.jpeg"
                   alt="EduNova Fondation"
-                  className="h-16 w-auto object-contain brightness-0 invert"
+                  className="h-16 w-auto object-contain "
                 />
               </a>
 
